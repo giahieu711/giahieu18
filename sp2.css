@@ -1,0 +1,450 @@
+ghi-chu{
+   
+    background-color: rgb(233, 80, 105);
+    margin: 5px 5px;
+}
+.login{
+    float: right;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    margin-left: 100px;}
+.an{
+    text-align: center;
+    width: 30%;
+    float: left;
+}
+.ghi-chu{
+    float: right;
+}
+q{
+    text-align: center;
+}
+.q{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.timkiem{
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+a{
+    color: black;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.c{
+    width: 200px;
+    background-color: rgb(24, 22, 22);
+    margin: 5px 5px;
+    padding: 10px 5px 10px 5px;
+    text-align: justify;
+}
+.s{
+    width: 200px;
+    background-color: rgb(233, 80, 105);
+    margin: 5px 5px;
+    padding: 10px 5px 10px 5px;
+    text-decoration: none;
+    
+}
+.D{
+    background-color: black;
+    padding: 10px 5px 10px 5px;
+}
+.n{
+    margin: 5px 5px;
+    padding: 10px 5px 10px 5px;
+    text-decoration: none;
+}
+.d{
+    width: 200px;
+    background-color: rgb(233, 80, 105);
+    margin: 5px 5px;
+    padding: 10px 5px 10px 5px;
+    text-decoration: none;
+}
+.a{
+    width: 200px;
+    background-color: rgb(233, 80, 105);
+    margin: 5px 5px;
+    padding: 10px 5px 10px 5px;
+    text-decoration: none;
+}
+.body{
+    display: flex;
+}
+.nav{
+    width: 100%;
+    height: 50px;   
+}
+.nav>ul{
+    padding: 0PX;
+    margin: 0px;
+    text-align: center;
+
+}
+.nav>ul>li{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+.nav>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-size: larger;
+    font-variant: small-caps;
+    padding: 0px 10px;
+    line-height: 50px;
+}
+.nav .con{
+    display: none;
+    position: absolute;
+    background-color: white;
+    list-style: none;
+    text-align: left;
+}
+li:hover>.con{
+    display: block;
+}
+.con li{
+    border: 1px solid rgb(226, 40, 96);
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    text-align: left;
+
+}
+.con .con1{
+    display: none;
+    position: absolute;
+    left: 100%;
+    width: 200px;
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    list-style: none;
+    font-variant: small-caps;
+    text-align: left;
+
+}
+.con li:hover .con1{
+    display: block;
+}
+footer{
+    background-color: rgb(224, 65, 118);
+    text-align: center;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+i{
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display:inline-block;
+    padding: 3px;
+    margin: 4px;
+    
+    transform: rotate(-45deg) ;
+    -webkit-transform: rotate(-45deg);
+   
+    
+}
+header img{
+    background-size: 100% 100%;
+    width: 100%;
+    height: 80px;
+}
+
+.phan2{
+  
+    height:110px;
+    width: 100%;
+    padding: 0px;
+    margin: auto;
+    
+}
+.logo{
+    margin-left: 90px;
+    height: 100px;
+}
+.timkiem{
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    border: 2px solid rgb(255, 10, 153);
+    border-radius: 10px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.an{
+    text-align: center;
+    width: 30%;
+    float: left;
+}
+.icon2{
+    width: 8%;
+    text-align: center;
+}
+.login{
+    float: right;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu{
+   
+    width: 80%;
+    background-color: rgb(252, 147, 219);
+    float: right;
+    height: 50px;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style:none;
+    border-radius: 3px;
+    text-align: center;
+}
+.menu>ul>li{
+    display: inline-block;
+    color: white;
+}
+.menu>ul>li>a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-variant: small-caps;
+    padding: 0 10px;
+    line-height: 50px;
+}
+.menu>ul>li>a:hover{
+    color: brown;
+}
+.danhmuc{
+    background: url("/assignment/img/icon5.png") no-repeat  left 10px center;
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    width: 20%;
+    background-color: rgb(252, 147, 219);
+    float: left;
+    font-size: large;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-size: 7%;
+    background-position: left-center;
+   
+}
+.danhmuc a{
+    color: white;
+}
+.phan1{
+    height: 100px;
+    width: 100%;
+}
+.phan1 .info{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 50px;
+    margin: 10px;
+    background-size: 1.5%;
+    margin-left: 50px;
+}
+.in1 .left{
+    float: left;
+    display:flex;
+    flex-direction: column;
+    width:20%; 
+}
+.right{
+    width: 600px;
+}
+.img1{
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 50px;
+    margin: 10px;
+    background-size: 1.5%;
+    margin-left: 50px;
+}
+.in2{
+    float: left; 
+    width: 30%;
+    height: 800px;
+    line-height: 40px;
+    overflow: auto;
+}
+.gian{
+    border: solid rgb(252, 147, 219);
+    border-width: 2px 0 2px 0;
+}
+.do{
+    float: left;
+    display:flex;
+    color: red;
+    font-weight: bold;
+}
+.gian,.thongtin,.in2{
+    font-size: 20px;
+    padding: 10px;
+}
+del{
+    display: flex;
+    float: left;
+    color:grey;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.mau b{
+    font-size: 20px;
+}
+input{
+    padding: 8px;
+    border: 2px solid rgb(223, 98, 140);
+    border-radius: 9px;
+    width: 100px;
+}
+.mua a{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.mua a:hover{
+    border: 2px solid palevioletred;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+.in3{
+    float: left;
+    width: 30%;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid grey;
+}
+.in3 .ba2{
+    border: solid palevioletred;
+    border-width: 2px 0 2px 0;
+    margin: 10px;
+}
+.in3 div img{
+    background-color: palevioletred;
+    border-radius: 50px;
+}
+h2{
+    font-size: 35px;
+}
+.mota{
+    float: left;
+    margin-left: 7%;
+    margin-left: 7%;
+    width: 90%;
+    height: 2500px;
+    font-size: 20px;
+}
+.mota div{
+    padding: 30px;
+    line-height: 30px;
+}
+.mota img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.mota h3{
+    padding: 0px;
+    margin-top: 0px;
+    padding: 15px;
+    color: black;
+}
+.sanpham{
+    display: inline-flex;
+    width: 90%;
+    margin-left:6%;
+    margin-right: 6%;
+}
+.tieude{
+    margin-left:6%;
+    margin-right: 6%;
+    width: 90%;
+    float: left;
+    text-align: center;
+    background-color: palevioletred;
+    padding: 25px;
+    font-size: 25px;
+}
+.san{
+    float: left;
+    width: 16%;  
+    border-radius: 20px;
+    margin: 20px;
+    font-size: 20px ;
+    text-align: center;
+    padding: 10px ;
+    height: 350px;
+    padding: 5px;
+}
+.san:hover{
+    border: 1px solid  palevioletred;
+}
+.name{
+    white-space: nowrap; 
+    width: 200px; 
+    overflow:hidden;
+}
+.san img{ 
+    width: 90% ;
+}
+.ten{
+    font-size: 20px;
+    font-variant:normal;
+    font-weight:bold;
+    color:black;
+  
+}
+.gia del {
+    color: black;
+}
+.gia{
+    color: red;
+    text-align: left;
+    margin-left: 25px;
+    font-size: 20px;
+}
+ p,a{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 18px;
+    font-style: unset;
+    font-weight: normal;
+}
+.info a:hover{
+    color:palevioletred ;
+    text-decoration:underline;
+}
